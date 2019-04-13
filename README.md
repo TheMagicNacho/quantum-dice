@@ -13,12 +13,6 @@ NOW YOU CAN PLAY WITH A QUANTUM DEVICE!<br>
 With this app, literally all possibilities exist and a single measurable outcome is provided to you.
 <hr>
 <h3>Installation</h3>
-1)  Open terminal and type:  pip install quantum-dice <br>
-Explanation: This will install all the required dependences for you to run the program.<br>
-2)  Right-Click the link and save as 'quantumdice.py':  <a href="https://raw.githubusercontent.com/TheMagicNacho/quantum-dice/master/run.py" download="run.py"> DOWNLOAD </a><br>
-Explanation:  This will download a python script to your computer for you to run.<br>
-3)  Go back to terminal type:<br>
-cd Downloads<br>
-3)  In terminal type:<br>
-python run.py<br>
-Explanation:  This will execute
+<strike> Open Terminal and type: pip install quantum-dice</strike><br>
+There are some package issues rightnow.<br>
+If you want to use this, you'll have to figure out how to download and install the dependancies manually.
