@@ -15,4 +15,8 @@ With this app, literally all possibilities exist and a single measurable outcome
 <h3>Installation</h3>
 <strike> Open Terminal and type: pip install quantum-dice</strike><br>
 There are some package issues rightnow.<br>
-If you want to use this, you'll have to figure out how to download and install the dependancies manually.
+If you want to use this, you'll have to figure out how to download and install the dependancies manually.<br>
+<hr>
+TERMINAL TYPE:  conda activate q <br>
+<i> use 'cd' to go to the directory where file is saved.</i><br>
+TERMINAL TYPE:  python run.py
