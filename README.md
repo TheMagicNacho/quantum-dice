@@ -15,5 +15,5 @@ With this app, literally all possibilities exist and a single measurable outcome
 <h3>Installation</h3>
 1)  Open terminal and type:  pip install quantum-dice <br>
 Explanation: This will install all the required dependences for you to run the program.<br>
-2)  Download the ‘run’ script:  <a href="https://raw.githubusercontent.com/TheMagicNacho/quantum-dice/master/run.py" download> DOWNLOAD </a><br>
+2)  Download the ‘run’ script:  <a href="https://raw.githubusercontent.com/TheMagicNacho/quantum-dice/master/run.py" download="run.py"> DOWNLOAD </a><br>
 Expl
