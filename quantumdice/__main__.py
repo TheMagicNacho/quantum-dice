@@ -14,13 +14,13 @@ root = Tk()
 class App:
 #define the widgets
     def __init__(self, master):
-        self.title = Label(master, fg="black", text="The Quantum Dice", font=('times', 40))
+        self.title = Label(master, fg="black", text="The Quantum Dice", font=('arial', 40))
         self.nb_dices_entry = Combobox(master, values=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
         self.nb_faces_entry = Combobox(master, values=[4, 6, 10, 12, 20])
         self.mod_entry = Combobox(master, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
-        self.nb_dices_label = Label(master, fg="black", text="How many dices? ", font=('times', 20))
-        self.nb_faces_label = Label(master, fg="black", text="How many side?", font=('times', 20))
-        self.mod_label = Label(master, fg="black", text="Would you like to include a modifier?", font=('times', 20))
+        self.nb_dices_label = Label(master, fg="black", text="How many dices? ", font=('arial', 20))
+        self.nb_faces_label = Label(master, fg="black", text="How many side?", font=('arial', 20))
+        self.mod_label = Label(master, fg="black", text="Would you like to include a modifier?", font=('arial', 20))
         self.generate_button = Button(master, text="ROLL DICE", command=self.get_output)
         self.list_output_int = Label(master, fg="black", bg="white", text="? ? ?")  # TODO: add text function
         self.mod_output_int = Label(master, fg="black", bg="white", text="0")
