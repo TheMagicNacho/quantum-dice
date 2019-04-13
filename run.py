@@ -90,7 +90,7 @@ class App:
         self.title = Label(master, fg="black", text="The Quantum Dice", font=('arial', 40))
         self.nb_dices_entry = Combobox(master,
                                        values=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
-        self.nb_faces_entry = Combobox(master, values=[4, 6, 10, 12, 20])
+        self.nb_faces_entry = Combobox(master, values=[4, 6, 8, 10, 12, 20, 100])
         self.mod_entry = Combobox(master,
                                   values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
         self.nb_dices_label = Label(master, fg="black", text="How many dices? ", font=('arial', 20))

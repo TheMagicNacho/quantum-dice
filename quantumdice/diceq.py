@@ -3,10 +3,6 @@ import math
 from qiskit import IBMQ
 
 
-def main():
-    while True:
-        randint()
-
 # THIS PART IS THE QUANTUM SHIT SO PUCKER YOUR BUTTHOLES
 _backend = qiskit.BasicAer.get_backend('qasm_simulator')
 _circuit = None
@@ -76,5 +72,10 @@ def randint(min, max):
         result = int(bitstring(n), 2)
     return result + min
 
+def roll(nb_dice, nb_face):
+    roll_list = []
+    for i in range(nb_dice):
+        roll_list.append(diceq.randint(1, nb_face))
+    return roll_list
 
-if __name__ == '__main__': main()
+
